@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <!-- Font Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Sofia+Sans+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <title>Responsive</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <section>
+    <div class="container">
+      <div class="img-div">
+        <img src="Logo.png" alt="" />
+        <h2>For Individuals</h2>
+        <p>Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+        <p class="mobile">Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+      </div>
+
+      <div class="form-container">
+        <form action="#" method="post">
+          <div class="flex">
+            <span class="first-name">
+              <label for="first-name"><strong>First name</strong></label><br />
+              <input type="text" id="first-name" placeholder="Tolu" />
+            </span>
+
+            <span>
+              <label for="last-name"><strong>Last Name</strong></label><br />
+              <input type="text" id="last-name" />
+            </span>
+          </div>
+
+          <br />
+
+          <div class="flex">
+            <span>
+              <label for="gender"><strong>Gender</strong></label><br />
+              <select name="gender" id="gender">
+                <option disabled selected value="text">Select here</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </span>
+
+          
+              <!-- Date Input with Calendar Icon -->
+              <div class="icon-container">
+                <label for="dateInput">Select Date</label>
+                <input type="date" id="dateInput" class="date-input" placeholder="Select date" />
+              </div>
+            </div>
+
+          <br />
+
+          <div class="flex">
+            <span>
+              <label for="weight"><strong>Weight(kg)</strong></label><br />
+              <input type="text" id="weight" placeholder="Enter weight" />
+            </span>
+
+            <span>
+              <label for="height"><strong>Height(CM)</strong></label><br />
+              <input type="text" id="height" placeholder="Enter height here" />
+            </span>
+          </div>
+
+          <br />
+
+          <label for="activity"><strong>Activity Level</strong></label><br />
+          <select name="activity" id="activity">
+            <option disabled selected value="select here">Select here</option>
+            <option value="null">Null</option>
+            <option value="null">Null</option>
+          </select>
+
+          <br />
+          <br />
+
+
+          <div class="input-container">
+            <!-- Password Input with Eye Icon -->
+            <div class="icon-container">
+              <label for="passwordInput">Password</label>
+              <input type="password" id="passwordInput" placeholder="Enter password" />
+              <span class="icon material-icons" id="togglePassword">visibility</span>
+            </div>
+          </div>
+
+          <br />
+
+          <button type="submit"><a href="submit.html" id="button">register</a></button>
+
+        </form>
+
+        <footer>
+          <p>
+            By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
